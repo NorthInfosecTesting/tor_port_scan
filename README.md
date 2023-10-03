@@ -4,13 +4,16 @@ For this script to work, you need to install some dependencies, the following is
   1. ```bash
      sudo apt install tor
      ```
-  4. `nano /etc/tor/torrc` and uncomment '`ControlPort 9051`'
-  6. ```bash
+  2. ```bash
+     nano /etc/tor/torrc
+     ```
+     and uncomment '`ControlPort 9051`'
+  3. ```bash
      sudo systemctl restart tor
      ```
-  8. ```bash
+  4. ```bash
      sudo systemctl start tor
      ```
-  11. ```bash
+  5. ```bash
       pip3 install -r requirements.txt
-      ```
+     ```
