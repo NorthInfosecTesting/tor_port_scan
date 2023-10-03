@@ -1,4 +1,4 @@
-# tor_port_scan
+# Tor Port Scan
 
 For this script to work, you need to install some dependencies, the following is for kali linux.
   1. sudo apt install tor
