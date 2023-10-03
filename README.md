@@ -7,13 +7,13 @@ For this script to work, you need to install some dependencies, the following is
   2. ```bash
      nano /etc/tor/torrc
      ```
-     and uncomment '`ControlPort 9051`'
-  3. ```bash
+  3.   uncomment '`ControlPort 9051`'
+  4. ```bash
      sudo systemctl restart tor
      ```
-  4. ```bash
+  5. ```bash
      sudo systemctl start tor
      ```
-  5. ```bash
+  6. ```bash
       pip3 install -r requirements.txt
      ```
