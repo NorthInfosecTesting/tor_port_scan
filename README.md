@@ -7,7 +7,7 @@ For this script to work, you need to install some dependencies, the following is
   2. ```bash
      nano /etc/tor/torrc
      ```
-  3.      uncomment '`ControlPort 9051`'
+  3.    uncomment '`ControlPort 9051`'
   4. ```bash
      sudo systemctl restart tor
      ```
