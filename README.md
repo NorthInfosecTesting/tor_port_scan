@@ -17,3 +17,6 @@ For this script to work, you need to install some dependencies, the following is
   6. ```bash
       pip3 install -r requirements.txt
      ```
+
+
+### Usage
