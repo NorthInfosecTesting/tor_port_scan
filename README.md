@@ -20,3 +20,8 @@ For this script to work, you need to install some dependencies, the following is
 
 
 ### Usage
+  1. `python3 scan.py -h` # help and more information
+  2. `python3 scan.py <TARGET>` # standard port scan, changing IP address every 5 ports scaned
+  3. `python3 scan.py --tor-interval <TARGET>` # default is 5. The number of ports scanned before the TOR IP address is changed
+  4. `-t` TIMEOUT, `--timeout` TIMEOUT seconds to wait before connection timeout for each port
+  5. `j` JOBS, `--jobs` JOBS  maximum number of open connections at the same time
